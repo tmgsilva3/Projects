@@ -3,10 +3,16 @@ import random
 def randarith():
   a = random.randint(1,10)
   b = random.randint(1,10)
-  print("The numbers are " + str(a) + " and " + str(b))
+  c = a + b
+  answer = int(input("{} + {} = ".format(a, b)))
+  if (c == answer):
+      print("You got it!")  
+  else:
+      print("Incorrect!")
+  
 
 def numarith():
-  passs
+  pass
   
 
 print("""Hello! Welcome to the Calculator Game
