@@ -12,7 +12,14 @@ def randarith():
   
 
 def numarith():
-  pass
+  a = int(input("Insert first number: "))
+  b = int(input("Insert second number: "))
+  c = a + b
+  answer = int(input("{} + {} = ".format(a, b)))
+  if (c == answer):
+      print("You got it!")  
+  else:
+      print("Incorrect!")
   
 
 print("""Hello! Welcome to the Calculator Game
