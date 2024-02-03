@@ -47,11 +47,10 @@ c = input("Would you like random numbers or fixed numbers? Choose 'random' or 'f
 
 if(c.lower() == 'random'):
   randarith()
+  repeat()
 
 elif(c.lower() == 'fixed'):
   numarith()
-
+  repeat()
 else:
   print("Choose a valid choice.")
-  
-repeat()
