@@ -22,20 +22,11 @@ def numarith():
       print("Incorrect!")
       
       
-def repeat():
+def repeat(x):
     answer = input("Do you want to go again? Yes or No?\n")
-    if(answer.lower() == 'yes'):
-        answer2 = input("Which mode 'Random' or 'Fixed' mode?\n")
-        if(answer2.lower() == 'random'):
-            randarith()
-            repeat()
-        elif(answer2.lower() == 'fixed'):
-            numarith()
-            repeat()
-        else:
-            print("Choose a valid choice.")
-    elif(answer.lower() == 'no'):
-        pass
+    while (answer == 'yes'):
+      x()
+      answer == input("Continue?")
   
 
 print("""Hello! Welcome to the Calculator Game
