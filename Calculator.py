@@ -6,9 +6,11 @@ def randarith():
   c = a + b
   answer = int(input("{} + {} = ".format(a, b)))
   if (c == answer):
-      print("You got it!")  
+      print("You got it!")
+      repeat(randarith())
   else:
       print("Incorrect!")
+      repeat(randarith())
   
 
 def numarith():
@@ -18,8 +20,10 @@ def numarith():
   answer = int(input("{} + {} = ".format(a, b)))
   if (c == answer):
       print("You got it!")
+      repeat(numarith())
   else:
       print("Incorrect!")
+      repeat(numarith())
       
       
 def repeat(x):
