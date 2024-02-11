@@ -41,30 +41,30 @@ def old():
 
 
 def new():
-	matthew
-	mark
-	luke
-	john
-	acts
-	romans
-	corinthians1
-	corinthians2
-	galatians
-	ephesians
-	philippians
-	colossians
-	thessalonians1
-	thessalonians2
-	timothy1
-	timothy2
-	titus
-	philemon
-	hebrews
-	james
-	peter
-	peter2
-	john1
-	john2
-	john3
-	jude
-	revelation
+	matthew = {:}
+	mark = {:}
+	luke = {:}
+	john = {:}
+	acts = {:}
+	romans = {:}
+	corinthians1 = {:}
+	corinthians2 = {:}
+	galatians = {:}
+	ephesians = {:}
+	philippians = {:}
+	colossians = {:}
+	thessalonians1 = {:}
+	thessalonians2 = {:}
+	timothy1 = {:}
+	timothy2 = {:}
+	titus = {:}
+	philemon = {:}
+	hebrews = {:}
+	james = {:}
+	peter = {:}
+	peter2 = {:}
+	john1 = {:}
+	john2 = {:}
+	john3 = {:}
+	jude = {:}
+	revelation = {:}
